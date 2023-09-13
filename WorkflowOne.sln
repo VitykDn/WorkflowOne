@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowOne", "WorkflowOne\WorkflowOne.csproj", "{FA36F244-8C7D-43D6-B4AB-80EEB2143F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactTests", "ContactTests\ContactTests.csproj", "{0E9F352F-9640-4C0D-AE1B-7995E72838A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA36F244-8C7D-43D6-B4AB-80EEB2143F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA36F244-8C7D-43D6-B4AB-80EEB2143F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA36F244-8C7D-43D6-B4AB-80EEB2143F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA36F244-8C7D-43D6-B4AB-80EEB2143F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9F352F-9640-4C0D-AE1B-7995E72838A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9F352F-9640-4C0D-AE1B-7995E72838A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9F352F-9640-4C0D-AE1B-7995E72838A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9F352F-9640-4C0D-AE1B-7995E72838A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAFAF1E9-D776-4807-85A3-F265D7541D20}
+	EndGlobalSection
+EndGlobal
