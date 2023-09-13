@@ -29,10 +29,10 @@ namespace WorkflowOne
 
         [Output("Contact Link")]
         public OutArgument<string> ContactLink { get; set; }
+
         protected override void Execute(CodeActivityContext context)
         {
             IOrganizationServiceFactory serviceFactory = context.GetExtension<IOrganizationServiceFactory>();
-
             IOrganizationService service = serviceFactory.CreateOrganizationService(null);
 
             string parameter1 = Parameter1.Get(context);
